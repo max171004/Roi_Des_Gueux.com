@@ -21,7 +21,7 @@ h2 {
   text-transform: uppercase;
   text-align: center;
   padding-top: 30px;
-  font-size: 4em;
+  font-size: 2em;
 }
 a {
   text-decoration: none;
@@ -85,7 +85,7 @@ h3 {
 }
 #texteIntro {
   padding: 80px 30%;
-  font-size: 1.8em;
+  font-size: 1.1em;
 }
 #prestations {
   display: flex;
