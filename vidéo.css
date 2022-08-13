@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Advent Pro', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 2em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ******************* NAVBAR ******************* */
+nav {
+  overflow: hidden;
+  background-color: #FFFAE1;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+header li {
+  float: right;
+  font-size: 2em;
+}
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+}
+#logo {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  float: left;
+}
+/* **************** IMAGE PRINCIPALE ************* */
+#imagePrincipale {
+  padding-top: 60px;
+  background: url(media/logo.png) no-repeat 50% 50%;
+  background-size: cover;
+  height: 799px;
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px rgb(0, 0, 0);
+}
+#premierTrait {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: black;
+  box-shadow: 1px 3px 2px black;
+}
+h3 {
+  text-align: center;
+  color:antiquewhite;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+/* *************** PRESENTATION ********************** */
+#presentation {
+  background-color: #FFFAE1;
+  padding: 10px 0px 250px 0;
+}
+
+#texteIntro {
+  padding: 0px 20%;
+}
+#prestations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 40%;
+}
+ 
+.imagesPrestations h4 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+
+.imagesPrestations img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+}
+.imagesPrestations img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+#presentation1 {
+    background-color: #FFFAE1;
+    padding: 20px 5px 30px 0;
+  }
+#prestations1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 20%;
+    
+}
+.imagesPrestations1 h4 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+.imagesPrestations1 img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+  }
+  .imagesPrestations1 img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+  }
+  #presentation2 {
+    background-color: #FFFAE1;
+    padding: 10px 0px 250px 0;
+  }
+#prestations2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 24%;
+    
+}
+.imagesPrestations2 h4 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+.imagesPrestations2 img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+  }
+  .imagesPrestations2 img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+  }
+
+/* **************** TOURISME ********************** */
+#tourisme {
+  height: 900px;
+  background-color: #00bb54;
+  padding: 1px 2%;
+}
+#tourisme h2 {
+  padding-top: 60px;
+}
+#didier {
+  background: url(media/open.PNG);
+  
+}
+#chateau {
+  background: url(media/best.png);
+}
+
+
+#tourisme li {
+  margin: 400px 200px 42 200px;
+  height: 430px;
+  width: 80%;
+  max-width: 550px;
+  float: left;
+  box-shadow: 7px 7px 50px 1px rgba(0,0,0,0.75);
+}
+#tourisme p {
+  height: 45px;
+  width: 235px;
+  background-color: #ffffff;
+  float:right;
+  margin: 50px -180px 0 0;
+  font-size: 1.1em;
+  text-align: center;
+  padding-top: 15px;
+  box-shadow: 4px 4px 0 1px rgb(138, 138, 138);
+}
+#tourisme #chateau, #tourisme #vignoble {
+  float: right ;
+  
+}
+#chateau p, #vignoble p {
+  float: left;
+  background-color: rgb(255, 255, 255);
+  margin-left: -180px;
+  box-shadow: 4px 4px 0 1px rgba(15,154,156,1);
+}
+
+

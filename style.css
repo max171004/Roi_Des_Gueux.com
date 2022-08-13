@@ -15,12 +15,13 @@ ul {
 }
 li {
   list-style-type: none;
+  
 }
 h2 {
   text-transform: uppercase;
   text-align: center;
   padding-top: 30px;
-  font-size: 2em;
+  font-size: 4em;
 }
 a {
   text-decoration: none;
@@ -36,7 +37,7 @@ nav {
 }
 header li {
   float: right;
-  font-size: 1.2em;
+  font-size: 2em;
 }
 header li a {
   text-decoration: none;
@@ -62,13 +63,13 @@ h1 {
   color: antiquewhite;
   font-size: 6em;
   margin-top: 100px;
-  text-shadow: 1px 3px 2px black;
+  text-shadow: 1px 3px 2px rgb(0, 0, 0);
 }
 #premierTrait {
   height: 1px;
   width: 25%;
   margin: -3px auto;
-  background-color: #FFFAE1;
+  background-color: black;
   box-shadow: 1px 3px 2px black;
 }
 h3 {
@@ -80,16 +81,17 @@ h3 {
 /* *************** PRESENTATION ********************** */
 #presentation {
   background-color: #FFFAE1;
-  padding: 10px 0px 100px 0;
+  padding: 20px 0px 150px 0;
 }
 #texteIntro {
-  padding: 0px 20%;
+  padding: 80px 30%;
+  font-size: 1.8em;
 }
 #prestations {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 30px 10%;  
+  padding: 30px 20%;  
 }
 .imagesPrestations h4 {
   font-family: 'Dancing Script', cursive;
